@@ -1,4 +1,7 @@
 
+body{
+    background-color: rgb(136, 116, 155);
+}
 header{
     display: flex;
     justify-content: center;
@@ -33,7 +36,7 @@ span{
     margin: 10px 0;
 }
 .stockDetailsDiv button{
-    background-color: greenyellow;
+    background-color: rgb(101 150 191);
     padding: 8px;
     border: 0;
     border-radius: 5px;
@@ -43,7 +46,7 @@ span{
     justify-content: center;
 }
 .toolbar button{
-    background-color: greenyellow;
+    background-color: rgb(101 150 191);
     padding: 8px;
     border: 0;
     border-radius: 5px;
@@ -51,7 +54,7 @@ span{
     margin: 5px 10px;
 }
 #stockMin,#stockMax{
-    background-color: chartreuse;
+    background-color: #6e8192;
     width: 450px;
     margin: 5px 0;
     padding: 5px;
