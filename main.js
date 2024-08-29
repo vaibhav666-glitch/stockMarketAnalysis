@@ -3,9 +3,9 @@ async function render() {
     document.getElementById('chart').style.display='none'
     let stockChartsData,stockStatsData,stockSummary;
     try{
-        stockChartsData = await (await fetch('https://stocks3.onrender.com/api/stocks/getstocksdata')).json()
-        stockStatsData = await (await fetch('https://stocks3.onrender.com/api/stocks/getstockstatsdata')).json()
-        stockSummary=await (await fetch('https://stocks3.onrender.com/api/stocks/getstocksprofiledata')).json()
+        stockChartsData = await (await fetch('https://stocksapi-uhe1.onrender.com/api/stocks/getstocksdata')).json()
+        stockSummary = await (await fetch('https://stocksapi-uhe1.onrender.com/api/stocks/getstocksprofiledata')).json()
+        stockStatsData=await (await fetch('https://stocksapi-uhe1.onrender.com/api/stocks/getstockstatsdata')).json()
        // console.log(stockStatsData);
     }
     finally {
